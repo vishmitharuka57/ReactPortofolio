@@ -1,29 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:wght@700&display=swap");
 
-html{
-    scroll-snap-type: u mandatory;
-    scroll-behavior: smooth;
+html {
+  scroll-snap-type: u mandatory;
+  scroll-behavior: smooth;
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Arsenal SC", sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arsenal SC", sans-serif;
 }
-body{
-    background-color: rgb(11, 161, 154) ;
-    color: rgb(252, 252, 252);
+body {
+  background-color: rgb(11, 161, 154);
+  color: rgb(252, 252, 252);
 }
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
-section{
-    height: 100vh;
-    scroll-snap-align: center;
+section {
+  height: 100vh;
+  scroll-snap-align: center;
 }
-.home{
-    background: linear-gradient(180deg, rgb(6, 108, 126), rgb(20, 184, 135));
+.home {
+  background: linear-gradient(180deg, rgb(6, 108, 126), rgb(20, 184, 135));
 }
-
-

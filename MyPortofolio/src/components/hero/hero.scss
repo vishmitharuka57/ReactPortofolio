@@ -24,22 +24,21 @@
         letter-spacing: 10px;
       }
 
-      h1{
+      h1 {
         font-size: 60px;
       }
 
-      .buttons{
-        button{
-            padding: 15px;
-            border: 1px solid white;
-            border-radius: 10px;
-            background-color: transparent;
-            color: white;
-            margin-right: 20px;
-            cursor: pointer;
-            font-weight: 300;
-            font-size: 17px;
-            
+      .buttons {
+        button {
+          padding: 15px;
+          border: 1px solid white;
+          border-radius: 10px;
+          background-color: transparent;
+          color: white;
+          margin-right: 20px;
+          cursor: pointer;
+          font-weight: 300;
+          font-size: 17px;
         }
       }
 
@@ -61,7 +60,7 @@
     }
   }
 
-  .slidingTextContainer{
+  .slidingTextContainer {
     position: absolute;
     font-size: 55vh;
     bottom: -23px;
