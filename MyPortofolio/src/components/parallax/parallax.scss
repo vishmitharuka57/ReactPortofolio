@@ -11,8 +11,8 @@
   h1 {
     font-size: 100px;
     position: relative;
-    top: -120px;
-    color: rgb(30, 87, 87);
+    top: -230px;
+    color: rgb(5, 65, 65);
   
   }
 
@@ -61,15 +61,28 @@
     position: absolute;
     z-index: 1;
   }
-  .birds {
+ /* .birds {
     background-image: url("./birds.png");
     background-size: cover;
     //background-position:;
     position: relative;
-    top: 20px;
-    left: 490px;
+    top: 230px;
+    left: 790px;
     width: 25%;
     height: 25%;
+    position: absolute;
+    z-index: 1;
+  }*/
+
+  .boat {
+    background-image: url("./boat.png");
+    background-size: cover;
+    //background-position:;
+    position: relative;
+    top: 280px;
+    left: 990px;
+    width: 4%;
+    height: 10%;
     position: absolute;
     z-index: 1;
   }

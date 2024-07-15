@@ -22,7 +22,7 @@ const Parallax = ({ type }) => {
   const yBg1 = useTransform(scrollYProgress, [0, 1], ["0%", "250%"]);
   const yBg2 = useTransform(scrollYProgress, [0, 1], ["0%", "-200%"]);
   const yBg3 = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
-  const yBg4 = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
+  const yBg4 = useTransform(scrollYProgress, [0, 1], ["0%", "-500%"]);
 
   return (
     <div
@@ -51,8 +51,8 @@ const Parallax = ({ type }) => {
             className="planets"
           ></motion.div>
           <motion.div style={{ x: yBg2 }} className="stars1"></motion.div>
-          <motion.div style={{ x: yBg2 }} className="stars2"></motion.div>
-          <motion.div style={{ x: yBg4 }} className="birds"></motion.div>
+          <motion.div style={{ x: yBg3 }} className="stars2"></motion.div>
+          <motion.div style={{ x: yBg4 }} className="boat"></motion.div>
         </>
       )}
     </div>
