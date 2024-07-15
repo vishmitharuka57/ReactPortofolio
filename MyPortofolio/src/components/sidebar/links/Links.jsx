@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { motion } from "framer-motion";
 
 const variants = {
@@ -25,11 +27,11 @@ const itemVariants = {
   },
 };
 
-const Links = () => {
+const Links = ({isOpen}) => {
   const items = ["Home", "Services", "Projects", "Contact", "About"];
 
   return (
-    <motion.div className="links" variants={variants}>
+    <motion.div className="links"  variants={variants}>
       {items.map((item) => (
         <motion.a
           href={`#${item}`}

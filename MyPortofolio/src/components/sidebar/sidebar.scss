@@ -5,13 +5,15 @@
   justify-content: center;
   background-color: white;
   color: black;
+ 
 
   .bg {
     position: fixed;
+    z-index: 999;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 400px;
+    width: 200px;
     background: white;
 
     .links {
@@ -26,17 +28,19 @@
       gap: 20px;
 
       a {
-        font-size: 50px;
+        font-size: 34px;
       }
     }
   }
 
   button {
+     position: fixed;
+    z-index: 999;
     width: 50px;
     height: 40px;
     border-radius: 50%;
     position: fixed;
-    top: 37px;
+    top:37px;
     left: 25px;
     height: 25px;
     color: rgb(5, 73, 50);
