@@ -53,10 +53,10 @@ const Hero = () => {
           </motion.h1>
 
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
+            <motion.button variants={textVariants} whileTap={{scale: 0.85}} whileHover={{background:" white", color: " rgb(3, 76, 82)"}}>
               See the Latest Works
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants} whileTap={{scale: 0.85}} whileHover={{background:" white", color: " rgb(3, 76, 82)"}}>Contact Me</motion.button>
           </motion.div>
 
           <motion.img
