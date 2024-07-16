@@ -11,17 +11,19 @@
     height: 100%;
 
     span {
-      position: relative;
-      left: 90px;
+      z-index: 999;
+      position:fixed;
+      left: 97px;
+      top: 27px;
       font-weight: bold;
       font-size: 38px;
-      color: white;
+      color: rgb(0, 0, 0);
     }
 
     .social {
       position: relative;
       top: 07px;
-      right: 70px;
+      left: 1120px;
       display: flex;
       gap: 10px;
 

@@ -14,7 +14,7 @@ const Navbar = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7 }}
           >
-            Vishmi
+            Vishmi Tharuka
           </motion.span>
           <div className="social">
             <a href="#">
