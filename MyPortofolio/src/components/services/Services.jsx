@@ -44,15 +44,15 @@ const Services = () => {
           <div className="title">
             <img src="/people.jpg" alt="" />
             <h1>
-              <motion.b whileHover={{color:"#1cd8cf"}}>Unique</motion.b> Ideas
+              <motion.b whileHover={{color:"rgb(3, 76, 82)"}}>Unique</motion.b> Ideas
             </h1>
           </div>
 
           <div className="title">
             <h1>
-              <motion.b whileHover={{color:"#1cd8cf"}}>For Your</motion.b> Business.
+              <motion.b whileHover={{color:"rgb(3, 76, 82)"}}>For Your</motion.b> Business.
             </h1>
-            <motion.button whileHover={{background: "lightgray"} } whileTap={{scale: 0.95}}>What We Do?</motion.button>
+            <motion.button whileHover={{background: "white", color:"black"} } whileTap={{scale: 0.85}}>What We Do?</motion.button>
           </div>
         </motion.div>
         <motion.div className="listContainer" variants={variants}>
@@ -65,7 +65,7 @@ const Services = () => {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
               labore maxime accusamus reiciendis nisi delectus sit amet.
             </p>
-            <motion.button whileTap={{scale: 0.95}}>Go</motion.button>
+            <motion.button whileTap={{scale: 0.85}} whileHover={{color:"white"}}>Go</motion.button>
           </motion.div>
 
           <motion.div
@@ -77,7 +77,7 @@ const Services = () => {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
               labore maxime accusamus reiciendis nisi delectus sit amet.
             </p>
-            <motion.button whileTap={{scale: 0.95}}>Go</motion.button>
+            <motion.button whileTap={{scale: 0.85}} whileHover={{color:"white"}}>Go</motion.button>
           </motion.div>
 
           <motion.div
@@ -89,7 +89,7 @@ const Services = () => {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
               labore maxime accusamus reiciendis nisi delectus sit amet.
             </p>
-            <motion.button whileTap={{scale: 0.95}}>Go</motion.button>
+            <motion.button whileTap={{scale: 0.85}} whileHover={{color:"white"}}>Go</motion.button>
           </motion.div>
 
           <motion.div
@@ -101,7 +101,7 @@ const Services = () => {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
               labore maxime accusamus reiciendis nisi delectus sit amet.
             </p>
-            <motion.button whileTap={{scale: 0.95}}>Go</motion.button>
+            <motion.button whileTap={{scale: 0.85}} whileHover={{color:"white"}} >Go</motion.button>
           </motion.div>
 
           <motion.div
@@ -113,7 +113,7 @@ const Services = () => {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
               labore maxime accusamus reiciendis nisi delectus sit amet.
             </p>
-            <motion.button whileTap={{scale: 0.95}}>Go</motion.button>
+            <motion.button whileTap={{scale: 0.85}} whileHover={{color:"white"}}>Go</motion.button>
           </motion.div>
         </motion.div>
       </motion.div>

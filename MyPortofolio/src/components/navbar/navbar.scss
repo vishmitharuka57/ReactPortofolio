@@ -12,18 +12,18 @@
 
     span {
       z-index: 999;
-      position:fixed;
-      left: 97px;
+      position:relative;
+      left: -57px;
       top: 27px;
       font-weight: bold;
       font-size: 38px;
-      color: rgb(0, 0, 0);
+      color: rgb(3, 44, 54);
     }
 
     .social {
       position: relative;
       top: 07px;
-      left: 1120px;
+      left: 120px;
       display: flex;
       gap: 10px;
 
