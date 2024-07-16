@@ -1,4 +1,5 @@
 import "./app.scss";
+import Contact from "./components/contact/Contact";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
@@ -30,7 +31,8 @@ const App = () => {
       <section></section>
       <section></section>
       <section ></section>
-      <section id="Contacts">Contact</section>
+     
+      <section id="Contacts" style={{margin:"50px"}}><Contact /></section>
     </>
   );
 };

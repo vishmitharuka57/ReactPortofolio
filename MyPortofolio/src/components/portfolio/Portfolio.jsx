@@ -62,7 +62,7 @@ const Single = ({ item }) => {
     //offset: ["start start", "end start"]
   });
 
-  const y = useTransform(scrollYProgress, [0, 1], [-250, 250]);
+  const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
 
   return (
     <section >
@@ -105,7 +105,7 @@ const Portfolio = () => {
   });
 
   return (
-    <div className="portfolio">
+    <div className="portfolio"ref={ ref}>
       <div className="progress">
         <h1>Featured Work</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
