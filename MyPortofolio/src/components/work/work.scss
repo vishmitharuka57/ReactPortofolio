@@ -22,15 +22,15 @@
 
     .container{
         margin-top: 30px;
-        width: 72%;
+        width: 75%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
 
         .item{
-            width: 330px;
-            height: 210px;
+            width: 350px;
+            height: 200px;
             border-radius: 20px;
             border: 1px solid rgb(223, 222, 222);
             margin: 20px 30px;
@@ -44,7 +44,7 @@
 
             h3{
                 position: absolute;
-                left: 80px;
+                left: 20px;
                 color: rgb(234, 239, 240);
                 font-size: 30px;
             }

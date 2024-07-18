@@ -87,37 +87,37 @@ export const assignmentPortfolio = [
   {
     id: 1,
     title: "Assignment 1",
-    img: "/lms.png",
+    img: "/as1.png",
   },
 
   {
     id: 2,
     title: "Assignment 2",
-    img: "/helloshoe.png",
+    img: "/as2.png",
   },
 
   {
     id: 3,
     title: "Assignment 3",
-    img: "/chatapp.png",
+    img: "/as3.png",
   },
 
   {
     id: 4,
     title: "Assignment 4",
-    img: "/nexttravel.png",
+    img: "/as4.png",
   },
 
   {
     id: 5,
     title: "Assignment 5",
-    img: "/pos.png",
+    img: "/as5.png",
   },
 
   {
     id: 6,
     title: "Assignment 6",
-    img: "/reactportfolio.png",
+    img: "/as6.png",
   },
 ];
 export const mobilePortfolio = [
@@ -132,25 +132,25 @@ export const mobilePortfolio = [
 export const designPortfolio = [
   {
     id: 1,
-    title: "Design 1",
-    img: "/lms.png",
+    title: "Institute Management System",
+    img: "/ds1.png",
   },
 
   {
     id: 2,
-    title: "Design 2",
-    img: "/helloshoe.png",
+    title: "Plant Nursery Management System",
+    img: "/ds2.png",
   },
 
   {
     id: 3,
-    title: "Design 3",
-    img: "/reactportfolio.png",
+    title: "Portfolio WebSite 1",
+    img: "/ds3.png",
   },
   {
     id: 4,
-    title: "Design 3",
-    img: "/chatapp.png",
+    title: "Portfolio Website 2",
+    img: "/ds4.png",
   },
 
  
