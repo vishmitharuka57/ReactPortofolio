@@ -62,30 +62,25 @@ const Single = ({ item }) => {
     //offset: ["start start", "end start"]
   });
 
-  const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
+  const y = useTransform(scrollYProgress, [0, 1], [-100, 100]);
 
   return (
-    <section >
+    <section>
       <div className="container">
-
         <div className="wrapper">
-            <div className="imageContainer" ref={ref}>
+          <div className="imageContainer" ref={ref}>
             <img src={item.img} alt="" />
-            </div>
-          
+          </div>
 
-          <motion.div className="textContainer" style={{y}} >
+          <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <div className="buttons">
-            <button>GitHub Link</button>
-            <button>See Project</button>
+              <button>GitHub Link</button>
+              <button>See Project</button>
             </div>
-            
           </motion.div>
-
         </div>
-
       </div>
     </section>
   );
@@ -105,7 +100,7 @@ const Portfolio = () => {
   });
 
   return (
-    <div className="portfolio"ref={ ref}>
+    <div className="portfolio" ref={ref}>
       <div className="progress">
         <h1>Featured Work</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>

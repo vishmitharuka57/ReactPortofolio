@@ -10,7 +10,9 @@
         flex: 1;
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        margin-top: -20px;
+        margin-left: 45px;
+        gap: 60px;
 
         h1{
             font-size: 100px;
@@ -26,9 +28,10 @@
     .formContainer{
         flex: 1;
         position: relative;
+        margin-top: 50px;
 
         .phoneSvg{
-            stroke: rgb(223, 233, 232) ;
+            stroke: white ;
             position: absolute;
             margin: auto;
         }
@@ -56,7 +59,7 @@
             button{
                 padding: 20px;
                 border: none;
-                background-color: rgb(3, 76, 82);
+                background-color: rgb(3, 80, 87);
                 color: rgb(209, 209, 209);
                 cursor: pointer;
                 font-size: 23px;
