@@ -1,6 +1,7 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
 
+
 const textVariants = {
   initial: {
     x: -500,
@@ -54,9 +55,9 @@ const Hero = () => {
 
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants} whileTap={{scale: 0.85}} whileHover={{background:" rgb(3, 76, 82)" , border: "1px solid rgb(3, 76, 82)"}}>
-              See the Latest Works
+             <a href="https://github.com/vishmitharuka57?tab=repositories"> See the Latest Works</a>
             </motion.button>
-            <motion.button variants={textVariants} whileTap={{scale: 0.85}} whileHover={{background:"rgb(3, 76, 82)", border: "1px solid rgb(3, 76, 82)"} }>Contact Me</motion.button>
+            <motion.button variants={textVariants} whileTap={{scale: 0.85}} whileHover={{background:"rgb(3, 76, 82)", border: "1px solid rgb(3, 76, 82)"} }> <a href=" "> Contact Me</a></motion.button>
           </motion.div>
 
           <motion.img

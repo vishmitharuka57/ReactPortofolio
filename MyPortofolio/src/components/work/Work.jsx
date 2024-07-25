@@ -2,7 +2,14 @@
 import { useState, useEffect } from "react";
 import PortfolioList from "../workList/PortfolioList";
 import "./work.scss";
-import {featuredPortfolio, webPortfolio, posPortfolio, assignmentPortfolio, mobilePortfolio, designPortfolio } from "../../data";
+import {
+  featuredPortfolio,
+  webPortfolio,
+  posPortfolio,
+  assignmentPortfolio,
+  mobilePortfolio,
+  designPortfolio,
+} from "../../data";
 
 export default function Work() {
   const [selected, setSelected] = useState("featured");
@@ -40,31 +47,30 @@ export default function Work() {
     },
   ];
 
-  useEffect(()=>{
-
-    switch (selected){
-        case "featured":
-            setData(featuredPortfolio);
-            break;
-            case "web":
-            setData(webPortfolio);
-            break;
-            case "pos":
-            setData(posPortfolio);
-            break;
-            case "assignment":
-            setData(assignmentPortfolio);
-            break;
-            case "mobile":
-            setData(mobilePortfolio);
-            break;
-            case "design":
-            setData(designPortfolio);
-            break;
-            default:
-                setData(featuredPortfolio);
+  useEffect(() => {
+    switch (selected) {
+      case "featured":
+        setData(featuredPortfolio);
+        break;
+      case "web":
+        setData(webPortfolio);
+        break;
+      case "pos":
+        setData(posPortfolio);
+        break;
+      case "assignment":
+        setData(assignmentPortfolio);
+        break;
+      case "mobile":
+        setData(mobilePortfolio);
+        break;
+      case "design":
+        setData(designPortfolio);
+        break;
+      default:
+        setData(featuredPortfolio);
     }
-  },[selected])
+  }, [selected]);
 
   return (
     <div className="portfolio" id="portfolio">
@@ -80,16 +86,15 @@ export default function Work() {
         ))}
       </ul>
       <div className="container">
-        {data.map(d=>(
-            <div className="item">
-                <img src={d.img} alt="" />
-                <h3>{d.title}</h3>
-            </div>
-
+        {data.map((d) => (
+          <div className="item">
+            <img src={d.img} alt="" />
+            <h3>{d.title}</h3>
+           <button> <a href={d.url}>GitHub Link</a></button>
+             
+           
+          </div>
         ))}
-
-        
-        
       </div>
     </div>
   );
