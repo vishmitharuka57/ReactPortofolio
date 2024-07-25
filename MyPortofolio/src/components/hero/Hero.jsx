@@ -56,7 +56,7 @@ const Hero = () => {
             <motion.button variants={textVariants} whileTap={{scale: 0.85}} whileHover={{background:" rgb(3, 76, 82)" , border: "1px solid rgb(3, 76, 82)"}}>
               See the Latest Works
             </motion.button>
-            <motion.button variants={textVariants} whileTap={{scale: 0.85}} whileHover={{background:"rgb(3, 76, 82)", border: "1px solid rgb(3, 76, 82)"}}>Contact Me</motion.button>
+            <motion.button variants={textVariants} whileTap={{scale: 0.85}} whileHover={{background:"rgb(3, 76, 82)", border: "1px solid rgb(3, 76, 82)"} }>Contact Me</motion.button>
           </motion.div>
 
           <motion.img
